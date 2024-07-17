@@ -26,7 +26,7 @@ type Props = {
   category: string;
 };
 
-const Questions = ({ questions, limit, category }: Props) => {
+const Questions = ({ questions, limit, category }: any) => {
   const [curr, setCurr] = useState(0);
   const [answers, setAnswers] = useState<string[]>([]);
   const [selected, setSelected] = useState<string>("");
@@ -120,9 +120,8 @@ const Questions = ({ questions, limit, category }: Props) => {
       <div className="min-h-[50vh] py-4 xl:py-8 px-3 md:px-5 w-full">
         {questions.length > 0 && (
           <>
-            <h2 className="text-2xl text-center font-medium">{`Q${curr + 1}. ${
-              questions[curr]?.question
-            }`}</h2>
+            <h2 className="text-2xl text-center font-medium">{`Q${curr + 1}. ${questions[curr]?.question
+              }`}</h2>
             <div className="py-4 md:py-5 xl:py-7 flex flex-col gap-y-3 md:gap-y-5">
               {answers?.map((answer, i) => (
                 <button

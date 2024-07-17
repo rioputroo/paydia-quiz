@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Quizy - Test Your Knowledge!",
-  description: "A Quiz App built using Next JS",
+  title: "Paydia Quiz - Test Your Knowledge!",
+  description: "A Quiz App from Paydia",
 };
 
 export default function RootLayout({

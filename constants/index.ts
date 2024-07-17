@@ -1,7 +1,7 @@
 export const categoryOptions = [
   {
-    value: "general_knowledge",
-    option: "General Knowledge",
+    value: "finance",
+    option: "Finance",
   },
   {
     value: "arts_and_literature",

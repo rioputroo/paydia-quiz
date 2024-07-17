@@ -1,0 +1,306 @@
+[
+    {
+        "category": "Finance",
+        "id": "1",
+        "question": "Apa kepanjangan dari QRIS?",
+        "correctAnswer": "Quick Response Code Indonesian Standard",
+        "incorrectAnswers": [
+            "Quick Response Intercharge System",
+            "Quick Reform Information System"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "2",
+        "question": "Kapan QRIS resmi diluncurkan oleh Bank Indonesia?",
+        "correctAnswer": "17 Agustus 2019",
+        "incorrectAnswers": [
+            "17 Agustus 2000",
+            "17 Agustus 1945"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "3",
+        "question": "Sebutkan singkatan dari QRIS Tarik Tunai, Transfer, Setor Tunai!",
+        "correctAnswer": "QRIS TUNTAS",
+        "incorrectAnswers": [
+            "QRIS TTR",
+            "QRIS TAR.TRAN.SET"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "4",
+        "question": "Apa fungsi utama QRIS dalam transaksi pembayaran?",
+        "correctAnswer": "Standarisasi metode pembayaran QR",
+        "incorrectAnswers": [
+            "Meningkatkan transaksi tunai",
+            "Mengurangi penggunaan kartu kredit"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "5",
+        "question": "Apa keuntungan menggunakan QRIS dibandingkan dengan pembayaran lainnya?",
+        "correctAnswer": "Pakai QRIS Cepat, Mudah, Murah, Aman, dan Handal",
+        "incorrectAnswers": [
+            "Hanya digunakan untuk pembayaran internasional",
+            "Membutuhkan internet yang kuat"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "6",
+        "question": "Apa saja QRIS yang umum digunakan?",
+        "correctAnswer": "QRIS Statik & QRIS Dinamis",
+        "incorrectAnswers": [
+            "QRIS Belanja",
+            "QRIS Informasi"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "7",
+        "question": "Apa arti dari QRIS Universal?",
+        "correctAnswer": "Satu QRIS bisa digunakan untuk berbagai pembayaran digital",
+        "incorrectAnswers": [
+            "Hanya dapat digunakan di merchant tertentu",
+            "Satu QRIS hanya untuk Satu Aplikasi Pembayaran"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "8",
+        "question": "Bagaimana cara baca QRIS?",
+        "correctAnswer": "Kris",
+        "incorrectAnswers": [
+            "Kyu Ar Ai Es",
+            "Kyuris"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "9",
+        "question": "QRIS memiliki karakter UNGGUL. Apa singkatan dari UNGGUL?",
+        "correctAnswer": "Universal, Gampang, Untung, dan Langsung",
+        "incorrectAnswers": [
+            "Unity, Network, Government, Unlimeted, Local",
+            "Universal, Growth, Great, User-Friendly, Lambat"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "10",
+        "question": "Apa arti dari model QRIS 'Merchant Presented Mode'?",
+        "correctAnswer": "Kode QRIS disediakan / dikeluarkan oleh pihak Merchant",
+        "incorrectAnswers": [
+            "Kode QRIS tidak disediakan oleh siapa-siapa",
+            "Kode QRIS ditampilkan pihak ketiga"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "11",
+        "question": "Istilah metode QRIS yang dilakukan di lintas negara ...",
+        "correctAnswer": "QRIS Cross Border",
+        "incorrectAnswers": [
+            "QRIS Travelling",
+            "QRIS Interchange"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "12",
+        "question": "Apa tujuan utama dari implementasi QRIS",
+        "correctAnswer": "Meningkatkan efisiensi dan integrasi pembayaran digital",
+        "incorrectAnswers": [
+            "Mengurangi limbah pabrik",
+            "Mengurangi penggunaan paket data"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "13",
+        "question": "Siapa yang dapat menggunakan QRIS?",
+        "correctAnswer": "Semua pengguna aplikasi pembayaran digital",
+        "incorrectAnswers": [
+            "Hanya lembaga keuangan",
+            "Hanya pemilik bisnis"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "14",
+        "question": "Bagaimana cara kerja QRIS?",
+        "correctAnswer": "Pelanggan memindai kode QRIS merchant & lakukan pembayaran melalui aplikasi",
+        "incorrectAnswers": [
+            "Pelanggan kirim uang langsung ke rekening merchant",
+            "Pelanggan memberikan uang tunai kepada merchant"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "15",
+        "question": "Siapa yang mengembangkan QRIS?",
+        "correctAnswer": "Bank Indonesia",
+        "incorrectAnswers": [
+            "Kementerian Ketenagakerjaan",
+            "Ikatan Dokter Indonesia"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "16",
+        "question": "Apakah QRIS dapat digunakan untuk transaksi lintas negara?",
+        "correctAnswer": "Ya, dengan QRIS Crossborder",
+        "incorrectAnswers": [
+            "Tidak, hanya untuk domestik",
+            "Ya, dengan QRIS Travelling"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    }
+]
