@@ -74,6 +74,9 @@ const config = {
       },
       boxShadow: {
         'custom-blue': '12px 12px 0px 0px #1926B2',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(0deg, #F1F1F1, #F1F1F1), linear-gradient(180deg, rgba(255, 206, 28, 0) 67.15%, #FFCE1C 127.62%)'
       }
     },
   },

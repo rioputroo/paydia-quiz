@@ -1,6 +1,8 @@
-"use client"
+"use client";
 
+import QuizSettings from "@/components/quiz-settings";
 import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -18,54 +20,36 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-transparent w-full rounded-lg">
-      {/* <div className="relative h-full flex justify-between">
-        <Image
-          src={"/welcome-to.png"}
-          alt="Welcome to"
-          layout="fill"
-          objectFit="contain"
-          className="relative"
-        />
-        <Image
-          src={"/trivia.svg"}
-          alt="hero-image"
-          priority
-          width={450}
-          height={450}
-          className="object-cover object-center"
-        />
-      </div> */}
-
-      <div className="relative h-full flex justify-between items-center">
+    <div className="bg-[url('/bg-quiz-2.png')] bg-cover rounded-[20px] h-[382px] w-[672px] md:w-[80%] lg:w-[90%] max-w-[672px] max-h-[382px]">
+      <div className="relative flex justify-between mt-12">
         <Image
           src={"/welcome-to.png"}
           alt="hero-image"
           priority
-          width={550}
-          height={200}
-          className="object-contain mt-10 ml-[50px] flex justify-start items-start"
+          width={300}
+          height={80}
+          className="object-contain ml-10 flex justify-start items-start"
         />
 
         <Image
-          src={"/trivia.svg"}
+          src={"/trivia-2.png"}
           alt="hero-image"
           priority
-          width={450}
-          height={450}
-          className="object-cover mt-10 object-center"
+          width={200}
+          height={100}
+          className="object-cover mr-[20px] object-center"
         />
       </div>
 
-      <div className="mt-[80px] ml-[50px] flex">
-        <span className="text-white text-4xl w-4/5 break-words">
+      <div className="mt-3 ml-10 flex w-full">
+        <span className="text-[#1926b2] text-base w-3/5 break-words">
           Dalam Quiz ini, kamu akan diberikan 5 pertanyaan seputar QRIS dan teknologi keuangan. Kamu akan diberikan waktu 15 detik untuk menjawab setiap soal yang ada.
         </span>
       </div>
 
-      <div className="mt-[80px] ml-[50px] flex items-center">
-        <span className="text-4xl font-semibold text-white">Siap untuk bermain?</span>
-        <Button onClick={handleQuizStart} className="w-[415px] h-[121px] text-5xl bg-white text-[#1926B2] font-semibold rounded-[24px] ml-[42px] hover:bg-white">
+      <div className="mt-8 ml-10 flex items-center">
+        <span className="text-2xl font-semibold text-[#1926b2]">Siap untuk bermain?</span>
+        <Button onClick={handleQuizStart} className="w-[138px] h-[44px] text-base text-white bg-[#1926B2] font-semibold rounded-[10px] ml-6 hover:bg-white">
           Let’s Play!
         </Button>
       </div>
