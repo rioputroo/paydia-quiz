@@ -104,11 +104,11 @@ const Questions = ({ questions, limit, category }: any) => {
         <CountdownCircleTimer
           key={key}
           isPlaying={!selected}
-          duration={15}
+          duration={10}
           size={45}
           strokeWidth={4}
           colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
-          colorsTime={[15, 8, 3, 0]}
+          colorsTime={[10, 8, 3, 0]}
           onComplete={handleTimeUp}
         >
           {({ remainingTime }) => (
