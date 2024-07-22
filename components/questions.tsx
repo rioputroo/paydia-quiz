@@ -138,6 +138,7 @@ const Questions = ({ questions, limit, category }: any) => {
             <Separator />
             <div className="flex mt-5 md:justify-between md:flex-row flex-col gap-4 md:gap-0 mx-auto max-w-xs w-full">
               <Button
+                className="bg-[#1926b2] hover:bg-[#1926b2]"
                 disabled={!selected}
                 onClick={() =>
                   questions.length === curr + 1

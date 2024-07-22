@@ -53,6 +53,7 @@ const ResultModal = () => {
         <div className="flex flex-col items-center">
           <p className="text-[20px] md:2xl text-primary font-semibold tracking-wide">
             <p className="text-[20px] font-medium text-[#090A0B]">You scored:</p>
+
             {additionalData?.score === additionalData?.limit &&
               <span className="flex justify-center items-center text-4xl text-[#0B7B69]">{`${additionalData?.score}/${additionalData?.limit}`}</span>
             }
