@@ -11,6 +11,7 @@ import { Separator } from "@/components/ui/separator";
 import useModalStore from "@/hooks/useModalStore";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import ConfettiEffect from '../ConfettiEffect';
 
 const ResultModal = () => {
   const { isOpen, type, onClose, additionalData } = useModalStore();
@@ -28,7 +29,13 @@ const ResultModal = () => {
         <Separator />
 
         {additionalData?.score === additionalData?.limit &&
-          <div className="flex justify-center items-center">
+          <div className="w-full">
+            <ConfettiEffect />
+          </div>
+        }
+
+        {additionalData?.score === additionalData?.limit &&
+          <div className="flex justify-center items-center relative">
             <Image
               src={"/quiz-check.svg"}
               alt="quiz check"
