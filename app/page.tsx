@@ -44,7 +44,7 @@ export default function Home() {
           priority
           width={550}
           height={200}
-          className="object-contain mt-10 ml-[100px] flex justify-start items-start"
+          className="object-contain mt-10 ml-[50px] flex justify-start items-start"
         />
 
         <Image
@@ -57,14 +57,14 @@ export default function Home() {
         />
       </div>
 
-      <div className="mt-[80px] ml-[100px] flex">
+      <div className="mt-[80px] ml-[50px] flex">
         <span className="text-white text-4xl w-4/5 break-words">
           Dalam Quiz ini, kamu akan diberikan 5 pertanyaan seputar QRIS dan teknologi keuangan. Kamu akan diberikan waktu 15 detik untuk menjawab setiap soal yang ada.
         </span>
       </div>
 
-      <div className="mt-[80px] ml-[100px] flex items-center">
-        <span className="text-5xl font-semibold text-white">Siap untuk bermain?</span>
+      <div className="mt-[80px] ml-[50px] flex items-center">
+        <span className="text-4xl font-semibold text-white">Siap untuk bermain?</span>
         <Button onClick={handleQuizStart} className="w-[415px] h-[121px] text-5xl bg-white text-[#1926B2] font-semibold rounded-[24px] ml-[42px] hover:bg-white">
           Let’s Play!
         </Button>
