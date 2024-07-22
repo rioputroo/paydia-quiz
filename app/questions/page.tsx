@@ -16,20 +16,6 @@ type Props = {
   };
 };
 
-async function getData(category: string, difficulty: string, limit: string) {
-  const res = await fetch(
-    `https://the-trivia-api.com/api/questions?categories=${category}&limit=${limit}&type=multiple&difficulty=${difficulty}`
-  );
-
-  console.log('getData', res);
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-
-  return res.json();
-}
-
 const QuestionsPage = ({ searchParams }: Props) => {
   const category = searchParams.category as string;
   const difficulty = searchParams.difficulty;
@@ -38,7 +24,7 @@ const QuestionsPage = ({ searchParams }: Props) => {
   const [randomQuestions, setRandomQuestions] = useState([]);
 
   useEffect(() => {
-    setRandomQuestions(getRandomQuestions(5));
+    setRandomQuestions(getRandomQuestions(3));
   }, []);
 
   const validateCategory = (category: string) => {
@@ -53,7 +39,7 @@ const QuestionsPage = ({ searchParams }: Props) => {
 
   const validateLimit = (limit: string) => {
     const parsedLimit = parseInt(limit, 10);
-    return !isNaN(parsedLimit) && parsedLimit >= 5 && parsedLimit <= 50;
+    return !isNaN(parsedLimit) && parsedLimit >= 3 && parsedLimit <= 50;
   };
 
   if (
@@ -64,18 +50,10 @@ const QuestionsPage = ({ searchParams }: Props) => {
     return redirect("/");
   }
 
-  function get5RandomQuestions(questions: any) {
-    const shuffledQuestions = [...questions]; // Create a copy of the questions array
-    shuffledQuestions.sort(() => Math.random() - 0.5); // Shuffle the array randomly
-
-    // Get the first 5 random questions
-    const random5Questions = shuffledQuestions.slice(0, 5);
-
-    return random5Questions;
-  }
-
   const getRandomQuestions = (count: any): any => {
+
     const shuffled = soal.sort(() => 0.5 - Math.random());
+
     return shuffled.slice(0, count);
   };
 

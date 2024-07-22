@@ -84,7 +84,7 @@ const Questions = ({ questions, limit, category }: any) => {
   };
 
   useEffect(() => {
-    if (questions?.length >= 5) {
+    if (questions?.length >= 3) {
       setAnswers(
         handleShuffle(
           questions[curr].correctAnswer,

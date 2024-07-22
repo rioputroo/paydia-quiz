@@ -302,5 +302,157 @@
         "difficulty": "easy",
         "regions": [],
         "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "17",
+        "question": "Apa keuntungan utama QRIS bagi merchant?",
+        "correctAnswer": "Mengurangi kebutuhan akan berbagai mesin EDC",
+        "incorrectAnswers": [
+            "Meningkatkan jumlah karyawan",
+            "Mengurangi biaya listrik"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "18",
+        "question": "Apa yang dimaksud dengan 'QRIS Customer Presented Mode'?",
+        "correctAnswer": "Pelanggan menampilkan kode QR untuk dipindai oleh merchant",
+        "incorrectAnswers": [
+            "Merchant menampilkan kode QR untuk merchant lainnya",
+            "Pihak ketiga menampilkan kode QR untuk dipindai pelanggan"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "19",
+        "question": "Apa yang dimaksud dengan QRIS Tarik Tunai?",
+        "correctAnswer": "Menggunakan QRIS untuk menarik uang tunai di merchant / ATM",
+        "incorrectAnswers": [
+            "Menggunakan QRIS untuk bayar tagihan",
+            "Menggunakan QRIS untuk kirim uang ke rekening bank"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "20",
+        "question": "Apakah QRIS aman digunakan untuk transaksi?",
+        "correctAnswer": "Ya, karena menggunakan standar keamanan yang tinggi & diawasi oleh Bank Indonesia",
+        "incorrectAnswers": [
+            "Tidak, karena datanya tidak terenkripsi",
+            "Hanya aman untuk transaksi kecil"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "21",
+        "question": "Bagaimana QRIS membantu inklusi keuangan?",
+        "correctAnswer": "Mempermudah akses pembayaran digital untuk semua lapisan masyarakat",
+        "incorrectAnswers": [
+            "Membuat pembayaran lebih sulit diakses",
+            "Meningkatkan penggunaann uang tunai & paylater"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "22",
+        "question": "Apa arti QRIS dalam konteks Merchant Discount Rate (MDR)?",
+        "correctAnswer": "Biaya yang dibebankan kepada merchant untuk setiap transaksi yang menggunakan QRIS",
+        "incorrectAnswers": [
+            "Potongan harga yang diberikan kepada pihak ketiga",
+            "Biaya yang dibebankan kepada pelanggan untuk setiap transaksi"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "23",
+        "question": "Apa yang dimaksud dengan QRIS Setor Tunai?",
+        "correctAnswer": "Menggunakan QRIS untuk menyetorkan uang tunai ke rekening bank melalui merchant",
+        "incorrectAnswers": [
+            "Menggunakan QRIS untuk belanja online",
+            "Menggunakan QRIS untuk bayar tagihan bulanan"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "Finance",
+        "id": "24",
+        "question": "Apa kelebihan QRIS bagi UMKM?",
+        "correctAnswer": "Mengurangi biaya transaksi dan memperluas jangkauan pasar",
+        "incorrectAnswers": [
+            "Mengurangi jumlah pelanggan",
+            "Meningkatkan biaya operasional"
+        ],
+        "tags": [
+            "QRIS",
+            "finance",
+            "general_knowledge"
+        ],
+        "type": "Multiple Choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
     }
 ]
