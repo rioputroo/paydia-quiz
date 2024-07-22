@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className="mt-8 ml-10 flex items-center">
         <span className="text-2xl font-semibold text-[#1926b2]">Siap untuk bermain?</span>
-        <Button onClick={handleQuizStart} className="w-[138px] h-[44px] text-base text-white bg-[#1926B2] font-semibold rounded-[10px] ml-6 hover:bg-white">
+        <Button onClick={handleQuizStart} className="w-[138px] h-[44px] text-base text-white bg-[#1926B2] font-semibold rounded-[10px] ml-6 hover:bg-[#1926B2]">
           Let’s Play!
         </Button>
       </div>
