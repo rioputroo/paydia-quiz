@@ -67,7 +67,7 @@ export default function Home() {
         className="mt-3 ml-10 flex w-full"
       >
         <span className="text-[#1926b2] text-base w-3/5 break-words">
-          Dalam Quiz ini, kamu akan diberikan 3 pertanyaan seputar QRIS dan teknologi keuangan. Kamu akan diberikan waktu 10 detik untuk menjawab setiap soal yang ada.
+          Dalam Quiz ini, kamu akan diberikan 3 pertanyaan seputar QRIS dan teknologi keuangan. Kamu akan diberikan waktu 15 detik untuk menjawab setiap soal yang ada.
         </span>
       </motion.div>
 
