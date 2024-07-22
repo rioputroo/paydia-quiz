@@ -51,7 +51,7 @@ const ResultModal = () => {
           </div>
         }
         <div className="flex flex-col items-center">
-          <p className="text-[20px] md:2xl text-primary font-semibold tracking-wide">
+          <div className="text-[20px] md:2xl text-primary font-semibold tracking-wide">
             <p className="text-[20px] font-medium text-[#090A0B]">You scored:</p>
 
             {additionalData?.score === additionalData?.limit &&
@@ -61,7 +61,7 @@ const ResultModal = () => {
             {additionalData?.score !== additionalData?.limit &&
               <span className="flex justify-center items-center text-4xl text-[#C03744]">{`${additionalData?.score}/${additionalData?.limit}`}</span>
             }
-          </p>
+          </div>
           <Button
             onClick={() => {
               router.push("/");

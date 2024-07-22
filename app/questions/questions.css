@@ -5,7 +5,7 @@
 }
 
 .option:hover {
-  @apply bg-primary/30 transition duration-300;
+  @apply bg-[#1926b2]/30 transition duration-300;
 }
 
 .option.correct {
